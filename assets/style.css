@@ -87,6 +87,7 @@ body {
 #mobile-date {
 	font-size: 24px;
 	font-weight: 400;
+	margin: 0;
 }
 
 @media screen and (min-width: 801px) {
