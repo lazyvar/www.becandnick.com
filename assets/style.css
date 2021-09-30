@@ -198,10 +198,6 @@ section {
 	}
 }
 
-#transportation p {
-	line-height: 32px;
-}
-
 #registry h1 {
 	width: 100%;
 	text-align: center;
@@ -216,7 +212,7 @@ section {
 
 #transportation-container {
 	text-align: center;
-	margin: 40px;
+	margin: 20px;
 }
 
 #registry-container div {
