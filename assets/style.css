@@ -38,6 +38,7 @@ body {
 #mobile-title {
 	font-family: 'Birthstone';
 	font-size: 64px;
+	margin: 0;
 }
 
 @media screen and (min-width: 801px) {
@@ -46,6 +47,28 @@ body {
 	}
 }
 
+#big-date {
+	text-align: center;
+	margin: 0;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+	#big-date {
+		display: none;
+	}
+}
+
+#mobile-date {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 801px) {
+	#mobile-date {
+		display: none;
+	}
+}
 
 @media screen and (min-width: 801px) {
 	nav {
