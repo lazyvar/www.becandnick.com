@@ -35,6 +35,31 @@ body {
 	}
 }
 
+.button {
+	background: #FDB970;
+	border-radius: 8px;
+	padding: 4px;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 801px) {
+	.button {
+		margin: 20px;
+	}
+}
+
+
+.button:hover {
+	background: #FF992B;
+}
+
+.button p {
+	color: white;
+}
+
 #mobile-title {
 	font-family: 'Birthstone';
 	font-size: 64px;
@@ -106,21 +131,7 @@ section {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
 	}
-}
-
-#stays a {
-	padding: 12px;
-	display: block;
-	text-decoration: none;
-	color: inherit;
-	margin: 10px;
-}
-
-#stays a:hover {
-	background: rgba(0, 0, 0, 0.1);
-	border-radius: 4px;
 }
 
 #content h1 {
@@ -161,21 +172,8 @@ section {
 	#venue-address {
 		text-align: center;
 		padding: 20px;
-		width: 500px;
+		width: 600px;
 	}
-}
-
-#venue-container a {
-	padding: 12px;
-	display: block;
-	text-decoration: none;
-	color: inherit;
-	margin: 10px;
-}
-
-#venue-container a:hover {
-	background: rgba(0, 0, 0, 0.1);
-	border-radius: 4px;
 }
 
 #content {
@@ -268,5 +266,5 @@ nav a {
 }
 
 nav a:hover {
-	color: #89CFF0;
+	color: #FDB970;
 }
