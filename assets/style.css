@@ -145,6 +145,10 @@ section {
 	}
 }
 
+#venue-address {
+	color: black !important;
+}
+
 @media screen and (max-width: 800px) {
 	#venue-address {
 		text-align: center;
