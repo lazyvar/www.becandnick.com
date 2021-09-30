@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat';
+	color: white;
+	background: ivory;
+}
+
+#main {
+	background-image: url("/assets/banner.jpg");
+	background-position: center top;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: calc(100vw * 0.569);
+}
+
+#title {
+	font-family: 'Birthstone';
+	color: white;
+	font-size: 52px;
+	cursor: default;
+}
+
+section {
+	color: rgba(0, 0, 0, 0.87);
+	padding: 20px;
+}
+
+#venue h1 {
+	width: 100%;
+	text-align: center;
+}
+
+#stays h1 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#stays-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#stays a {
+	padding: 12px;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	margin: 10px;
+}
+
+#stays a:hover {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+#venue-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#venue-address {
+	text-align: center;
+	padding: 20px;
+	width: 500px;
+}
+
+#venue-container a {
+	padding: 12px;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	margin: 10px;
+}
+
+#venue-container a:hover {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+#content {
+	max-width: 1000px;
+	margin: auto;
+}
+
+#registry-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#registry h1 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#transportation h1 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#transportation-container {
+	text-align: center;
+	margin: 40px;
+}
+
+#registry-container div {
+	text-align: center;
+	margin: 40px;
+}
+
+#pics {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+
+#pics img {
+	width: 33%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#registry img {
+	width: 80%;
+}
+
+#last {
+	display: flex;
+}
+
+#last img {
+	width: 50%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	align-items: center;
+}
+
+nav * {
+	text-align: center;
+	margin: 10px;
+	width: 20%;
+}
+
+nav a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #E02020;
+}
