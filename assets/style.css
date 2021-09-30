@@ -25,6 +25,34 @@ body {
 	cursor: default;
 }
 
+@media screen and (max-width: 800px) {
+	nav {
+		display: none;
+	}
+	#main {
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+#mobile-title {
+	font-family: 'Birthstone';
+	font-size: 64px;
+}
+
+@media screen and (min-width: 801px) {
+	#mobile-title {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 801px) {
+	nav {
+		display: flex;
+	}
+}
+
 section {
 	color: rgba(0, 0, 0, 0.87);
 	padding: 20px;
@@ -41,11 +69,22 @@ section {
 	margin-bottom: 60px;
 }
 
-#stays-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+@media screen and (max-width: 800px) {
+	#stays-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#stays-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 #stays a {
@@ -61,17 +100,42 @@ section {
 	border-radius: 4px;
 }
 
-#venue-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+#content h1 {
+	color: #FDB970;
 }
 
-#venue-address {
-	text-align: center;
-	padding: 20px;
-	width: 500px;
+@media screen and (max-width: 800px) {
+	#venue-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#venue-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#venue-address {
+		text-align: center;
+		padding: 10px;
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#venue-address {
+		text-align: center;
+		padding: 20px;
+		width: 500px;
+	}
 }
 
 #venue-container a {
@@ -92,10 +156,24 @@ section {
 	margin: auto;
 }
 
-#registry-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+@media screen and (max-width: 800px) {
+	#registry-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#registry-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+
+#transportation p {
+	line-height: 32px;
 }
 
 #registry h1 {
@@ -145,7 +223,6 @@ section {
 }
 
 nav {
-	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
 	align-items: center;
@@ -164,5 +241,5 @@ nav a {
 }
 
 nav a:hover {
-	color: #E02020;
+	color: #89CFF0;
 }
