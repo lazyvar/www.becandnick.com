@@ -131,7 +131,7 @@ section {
 	#stays-container {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 	}
 }
 
@@ -171,6 +171,22 @@ section {
 
 @media screen and (min-width: 801px) {
 	#venue-address {
+		text-align: center;
+		padding: 20px;
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#stays-thing {
+		text-align: center;
+		padding: 10px;
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	#stays-thing {
 		text-align: center;
 		padding: 20px;
 		width: 600px;
